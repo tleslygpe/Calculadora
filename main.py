@@ -13,7 +13,7 @@ while True:
     numero1 = input(int("Dime el primer número: "))
     numero2 = input(int("Dime el segundo número: "))
     resultado = sumar(numero1, numero2)
-    print("El resultado es: " resultado)
+    print("El resultado es: ", resultado)
     pass
 
   if opcion_seleccionada == 2:
@@ -21,7 +21,7 @@ while True:
     numero1 = input(int("Dime el primer número: "))
     numero2 = input(int("Dime el segundo número: "))
     resultado = restar(numero1, numero2)
-    print("El resultado es: " resultado)
+    print("El resultado es: ", resultado)
     pass
     
   if opcion_seleccionada == 3:
@@ -29,7 +29,7 @@ while True:
     numero1 = input(int("Dime el primer número: "))
     numero2 = input(int("Dime el segundo número: "))
     resultado = multiplicar(numero1, numero2)
-    print("El resultado es: " resultado)
+    print("El resultado es: ", resultado)
     pass
     
   if opcion_seleccionada == 4:
@@ -37,13 +37,13 @@ while True:
     numero1 = input(int("Dime el primer número: "))
     numero2 = input(int("Dime el segundo número: "))
     resultado = dividir(numero1, numero2)
-    print("El resultado es: " resultado)
+    print("El resultado es: ", resultado)
     pass
     
   if opcion_seleccionada == 5:
     print("******* SUMA AVANZADA *******")
     lista = input("Escribe los números a sumar separados por una coma (,): ")
     resultado = suma_avanzada(numero1, numero2)
-    print("El resultado es: " resultado)
+    print("El resultado es: ", resultado)
     pass
     
